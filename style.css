@@ -1,0 +1,92 @@
+body{
+
+    background:#459bf0;
+
+    font-family:Segoe UI, sans-serif;
+
+}
+
+.dashboard-card{
+
+    border-radius:15px;
+
+    box-shadow:0px 5px 5px rgba(0,0,0,.1);
+
+    margin-bottom:20px;
+    
+
+}
+
+.card{
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.card-body{
+
+    padding: 15px;
+
+}
+
+h1{
+
+    font-weight:bold;
+
+}
+
+.table td,
+.table th{
+
+    vertical-align:middle;
+.dashboard-header{
+    background:rgb(53, 71, 144);
+    padding:15px;
+    border-radius:15px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+.main-container{
+    max-width: 1400px;
+    margin: auto;
+}
+.dashboard-header{
+    margin-bottom:20px;
+}
+
+.dashboard-header h1{
+    font-size:32px;
+    margin-bottom:0;
+}
+
+.dashboard-header p{
+    margin-bottom:0;
+}
+.logo-dashboard{
+    height:300px;
+    width:auto;
+}
+.pit-map{
+
+    width: 80%;
+
+    max-width: 500px;
+
+    height: auto;
+
+}
+.pit-card .card-body{
+    padding:8px;
+}
+
+.pit-map{
+    max-width:500px;
+    max-height:350px;
+    width:auto;
+    height:auto;
+}
